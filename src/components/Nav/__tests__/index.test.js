@@ -17,7 +17,7 @@ describe('Nav component', () => {
   it('renders', () => {
     render(<Nav
       categories={categories}
-      setCurrentCategory={mockSetCurrentCategory}
+      setCurrentCategory={mockSetCurrentCategory}afterEach
       currentCategory={mockCurrentCategory}
     />);
   })
